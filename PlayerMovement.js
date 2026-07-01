@@ -1,0 +1,10 @@
+x = 0
+y = 0
+onkeydown = e=>{
+if(e.key=="ArrowRight") x += 50
+if(e.key=="ArrowLeft") x -= 50
+if(e.key=="ArrowDown") y += 50
+if(e.key=="ArrowUp") y -= 50
+s.style.top = y + "px"
+s.style.left = x + "px"
+}
